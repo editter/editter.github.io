@@ -13,22 +13,57 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
+title: Eric Ditter.com
+name: Eric Ditter.com
+email: editter@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+email: ericditter@outlook.com
+twitter: eric_ditter
+github:  editter
+linkedin: ericditter
+gravatar_hash: 97595ed7be25efd191e6eca2c96b3e05
+disqus_shortname: ericditter
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
 gems:
   - jekyll-feed
+  - jekyll-paginate
+  # - github-pages
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# https://github.com/thinker3197/ink/blob/master/_config.yml
+paginate:           5
+paginate_path:      "/page:num/"
+
+permalink:          /:year/:month/:day/:title/
+
+nav:
+  - name: "About"
+    href: "/about"
+  - name: "Pet Feeder"
+    href: "/pet-feeder-info"
+
+sass:
+  style: :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
