@@ -99,8 +99,9 @@ dd {
 }
 
 ul {
-    display: inline;
-    list-style: inside circle;
+
+    list-style-position: inside;
+    list-style: disc;
     padding-left: 0;
     li {
         margin-bottom: .25rem;
@@ -110,6 +111,10 @@ ul {
         margin-top: .25rem;
         margin-bottom: .5rem;
     }
+
+    // @media (min-width: 38em) {
+    //     padding-left: 20px;
+    // }
 }
 
 ol {
@@ -180,7 +185,7 @@ code {
     padding: .25em .5em;
     font-size: 85%;
     color: #bf616a;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
     border-radius: 3px;
 }
 
@@ -194,7 +199,8 @@ pre {
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 pre code {
@@ -205,6 +211,7 @@ pre code {
 }
 
 .highlight {
+    background-color: #f8f8f8;
     margin-bottom: 1rem;
     border-radius: 4px;
 }

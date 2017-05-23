@@ -46,10 +46,12 @@ paginate_path:      "/page:num/"
 permalink:          /:year/:month/:day/:title/
 
 nav:
+  # - name: "Blog"
+  #   href: "/blog"
   - name: "About"
     href: "/about"
   - name: "Pet Feeder"
-    href: "/pet-feeder-info"
+    href: "/petfeeder"
 
 sass:
   style: :compressed
