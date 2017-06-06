@@ -47,7 +47,7 @@ permalink:          /:year/:month/:day/:title/
 
 nav:
   - name: "Blog"
-    href: "/blog"
+    href: "/"
   - name: "About"
     href: "/about"
   - name: "Pet Feeder"
