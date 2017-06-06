@@ -13,12 +13,14 @@
   <div class="post-list">
     <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2> {% if post.description %}
-    <p>{{ post.description }}</p>
-    {% endif %}
+    </h2>
     <div class="post-date">
       <time>{{ post.date | date_to_string }}</time>
     </div>
+    {% if post.description %}
+    <p>{{ post.description }}</p>
+    {% endif %}
+
   </div>
   {% endfor %} {% if paginator.total_pages > 1 %}
   <div class="pages">

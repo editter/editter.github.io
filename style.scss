@@ -185,7 +185,7 @@ code {
     padding: .25em .5em;
     font-size: 85%;
     color: #bf616a;
-    background-color: #f8f8f8;
+    background-color: #fff;
     border-radius: 3px;
 }
 
@@ -199,8 +199,8 @@ pre {
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
-    background-color: #f8f8f8;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 pre code {
@@ -211,7 +211,7 @@ pre code {
 }
 
 .highlight {
-    background-color: #f8f8f8;
+    background-color: #fff;
     margin-bottom: 1rem;
     border-radius: 4px;
 }
@@ -469,7 +469,9 @@ nav {
         margin-top: 1.3rem;
     }
 }
-
+.post-date {
+    font-size: 14px;
+}
 .highlight .hll {
     background-color: #ffffcc
 }

@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Eric Ditter is a technology enthusiast who likes making hardware and software work together to automate everything. He works for [Skyline Technologies](http://SkylineTechnologies.com) where he primarily does web development for custom applications using MVC, JavaScript, and C#.
 
-You can find the source code for the Jekyll new theme at:
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+In his spare time he likes to learn new technologies and tinker with anything electronic. Raspberry Pi, Windows 10, Alexa, and IoT are the new things he likes to mess around with when he has the time.
