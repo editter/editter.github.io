@@ -14,11 +14,11 @@ Features include:
 * Interactions with an Amazon Alexa app
 * Website interface to view the status of the feeder
 
-See the full writeup at <https://www.hackster.io/>
+See the full writeup at [Hackster.io](https://www.hackster.io/editter/smart-pet-feeder-b226d8)
 
 If you want to use Alexa app or view data via the web site sign up here <https://onlineservicehub.azurewebsites.net/> *(beta)*
 
-<https://github.com/editter/PetFeeder/archive/master.zip>
+<https://github.com/editter/PetFeeder/>
 
 ```
 TOKEN = "<Token>"
