@@ -1,10 +1,11 @@
----
----
-$primary-color: #0090ff;
-
-$open-sans: 'Open Sans', sans-serif;
-$source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+--- --- $primary-color: #0090ff;
+$open-sans: 'Open Sans',
+sans-serif;
+$source-sans: "Source Sans Pro",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -12,11 +13,11 @@ $source-sans: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 html,
@@ -99,7 +100,6 @@ dd {
 }
 
 ul {
-
     list-style-position: inside;
     list-style: disc;
     padding-left: 0;
@@ -110,9 +110,7 @@ ul {
     ol {
         margin-top: .25rem;
         margin-bottom: .5rem;
-    }
-
-    // @media (min-width: 38em) {
+    } // @media (min-width: 38em) {
     //     padding-left: 20px;
     // }
 }
@@ -130,15 +128,15 @@ ol {
     }
 }
 
-p + h1,
-p + h2,
-p + h3,
-ul + h1,
-ul + h2,
-ul + h3,
-ol + h1,
-ol + h2,
-ol + h3 {
+p+h1,
+p+h2,
+p+h3,
+ul+h1,
+ul+h2,
+ul+h3,
+ol+h1,
+ol+h2,
+ol+h3 {
     margin-top: 1.5rem;
 }
 
@@ -292,7 +290,7 @@ tbody tr:nth-child(odd) th {
 
 nav {
     font-weight: bold;
-    a{
+    a {
         color: #fff;
     }
     ul {
@@ -336,14 +334,12 @@ nav {
 .profile {
     padding: 2%;
     background-color: #333;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
-
+    background-position: center;
     .profile-title {
         a {
             color: #fff;
-
             &:hover,
             &:focus {
                 color: $primary-color;
@@ -351,12 +347,10 @@ nav {
         }
     }
     .img-circle {
-        height: auto;
-        // width: 20%;
+        height: auto; // width: 20%;
         border-radius: 50%;
         display: block;
-        margin: auto;
-        // display: inline;
+        margin: auto; // display: inline;
         @media (min-width: 38em) {
             display: inline;
         }
@@ -366,8 +360,7 @@ nav {
         margin-right: 4vw;
         margin-top: 0;
         width: 100%;
-        text-align: center;
-        // float: right;
+        text-align: center; // float: right;
         color: #FFF;
     }
     p {
@@ -433,8 +426,7 @@ nav {
         margin-top: 0;
         margin-left: 20%;
         padding: 3%;
-        min-width: 80%;
-        // height: 800px;
+        min-width: 80%; // height: 800px;
     }
 }
 
@@ -469,9 +461,11 @@ nav {
         margin-top: 1.3rem;
     }
 }
+
 .post-date {
     font-size: 14px;
 }
+
 .highlight .hll {
     background-color: #ffffcc
 }
@@ -916,6 +910,21 @@ nav {
 
 .highlight .il {
     color: #009999
+}
+
+.tags-expo-list {
+    a {
+        padding: 5px;
+        border-radius: 5px;
+        background: lighten($primary-color, 50%)
+    }
+}
+
+.tags-expo-posts {
+    ul {
+        margin-top: 0;
+        list-style: circle;
+    }
 }
 
 

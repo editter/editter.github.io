@@ -7,7 +7,7 @@ permalink /tags/
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag"><i class="fa fa-tag" aria-hidden="true"></i>{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
