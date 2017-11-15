@@ -17,6 +17,8 @@ permalink: /blog/
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h2> {% if post.description %}
     <p>{{ post.description }}</p>
+    {% else %}
+    {{ post.excerpt }}
     {% endif %}
     <div class="post-date">
       <time>{{ post.date | date_to_string }}</time>

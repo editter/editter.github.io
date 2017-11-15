@@ -2,6 +2,8 @@
 title:        Using base classes in SignalR 2 and Angular 2
 author:       Eric Ditter
 date:         2017-11-15
+categories: typescript
+
 ---
 
 On one of my projects I used SignalR pretty extensivly in an Angular 1.6 application and I was using the [angular-signalr-hub](https://github.com/justmaier/angular-signalr-hub) library to integrate it into my application. It worked very well but I am moving to Angular 2 so I needed to find a way to do it without having to use the library and I was hoping to get to a more object oriented way of doing it.
