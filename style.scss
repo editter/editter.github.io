@@ -923,7 +923,11 @@ nav {
     a {
         padding: 5px;
         border-radius: 5px;
-        background: lighten($primary-color, 50%)
+        background: lighten($primary-color, 30%)
+    }
+    .fa{
+        font-size: 100%;
+        margin-right: 10px;
     }
 }
 
