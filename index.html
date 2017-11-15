@@ -1,4 +1,6 @@
---- layout: default ---
+---
+ layout: default
+---
 <!--<header class="bloghead">
   <h1 class="bloghead-title">
     <a href="{{ site.url }}/">{{ site.name }}<span></span></a>
@@ -17,7 +19,6 @@
     </div>
     {% if post.description %}
     <p>{{ post.description }}</p>
-    <p>{{ post.content | strip_html | truncatewords: 50  }}</p>
     {% endif %}
 
   </div>
