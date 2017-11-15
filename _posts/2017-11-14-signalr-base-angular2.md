@@ -2,7 +2,7 @@
 title:        Using base classes in SignalR 2 and Angular 2
 author:       Eric Ditter
 date:         2017-11-15
-tags: [typescript, angular ,signalr]
+tags: [Typescript, Angular, Signalr, Dev]
 excerpt_separator: <!--more-->
 ---
 
