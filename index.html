@@ -18,7 +18,7 @@
     {% if post.description %}
     <p>{{ post.description }}</p>
     {% else %}
-    <p>{{ post.excerpt | markdownify }} </p>
+    <p>{{ post.content | strip_html | truncatewords: 50  }}</p>
     {% endif %}
 
   </div>
