@@ -18,7 +18,7 @@
     {% if post.description %}
     <p>{{ post.description }}</p>
     {% else %}
-    <p>{{ post.excerpt }} </p>
+    <p>{{ post.excerpt | markdownify }} </p>
     {% endif %}
 
   </div>
