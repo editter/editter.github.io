@@ -20,7 +20,7 @@
     {% if post.description %}
     <p>{{ post.description }}</p>
     {% else %}
-    <p>{{ post.excerpt }}</p>
+    <p>{{ post.excerpt }} <a href="{{ post.url }}">more...</a></p>
     {% endif %}
 
   </div>
