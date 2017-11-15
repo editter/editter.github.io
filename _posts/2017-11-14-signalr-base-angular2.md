@@ -3,13 +3,13 @@ title:        Using base classes in SignalR 2 and Angular 2
 author:       Eric Ditter
 date:         2017-11-15
 categories: typescript
-
+excerpt_separator: <!--more-->
 ---
 
 On one of my projects I used SignalR pretty extensivly in an Angular 1.6 application and I was using the [angular-signalr-hub](https://github.com/justmaier/angular-signalr-hub) library to integrate it into my application. It worked very well but I am moving to Angular 2 so I needed to find a way to do it without having to use the library and I was hoping to get to a more object oriented way of doing it.
 
 With Typescript you can use base classes so I ended up coming up with the following and overall I really like how it came out. Everything that comes from the server passes through here so I can intercept whatever I need which actually came in handy. For date values I had some instances where they came through as strings and arrays came through as [array-like objects](http://www.nfriedly.com/techblog/2009/06/advanced-javascript-objects-arrays-and-array-like-objects/). I just parsed them internally and my calling code know the difference.
-
+<!--more-->
 ## SignalrBase.ts
 
 ``` typescript
