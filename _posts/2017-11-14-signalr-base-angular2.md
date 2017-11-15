@@ -1,6 +1,5 @@
 ---
 title:        Using base classes in SignalR 2 and Angular 2
-description:  Using SignalR with with Typescipt base classes and optionally Angular 2
 author:       Eric Ditter
 date:         2017-11-15
 ---
