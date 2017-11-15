@@ -19,6 +19,8 @@
     </div>
     {% if post.description %}
     <p>{{ post.description }}</p>
+    {% else %}
+    <p>{{ post.excerpt }}</p>
     {% endif %}
 
   </div>
