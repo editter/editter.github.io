@@ -26,7 +26,7 @@
   <div class="pages">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-      <</a>
+      </a>
         {% endif %} {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">></a> {% endif %}
   </div>
