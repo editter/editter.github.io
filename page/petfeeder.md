@@ -3,7 +3,6 @@ layout: page
 title: Pet Feeder
 permalink: /petfeeder/
 ---
-# PetFeeder
 
 A simple python class that controls a petfeeder.
 Features include:
