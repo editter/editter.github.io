@@ -50,8 +50,8 @@ nav:
     href: "/"
   - name: "About"
     href: "/about"
-  - name: "Pet Feeder"
-    href: "/petfeeder"
+  # - name: "Pet Feeder"
+  #  href: "/petfeeder"
 
 sass:
   style: :compressed
