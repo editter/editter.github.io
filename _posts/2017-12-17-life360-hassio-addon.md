@@ -54,12 +54,12 @@ sensor:
     state_topic: life360/location/Eric
     unit_of_measurement: '%'
     retain: true
-    value_template: '{{ value_json.battery_level }}'
+    value_template: '{% raw %}{{ value_json.battery_level }}{% endraw %}'
   - platform: mqtt
     name: Eric Address
     state_topic: life360/location/Eric
     retain: true
-    value_template: '{{ value_json.address }}'
+    value_template: '{% raw %}{{ value_json.address }}{% endraw %}'
 
 # Device tracking / Locations
 device_tracker:
@@ -89,7 +89,7 @@ automations.yaml
       platform: state
   condition:
     - condition: template
-      value_template: "{% if states('device_tracker.eric_phone') == 'Away' and states('device_tracker.jas_phone') == 'Away' %}true{% else %}false{% endif %}"
+      value_template: "{% raw %}{% if states('device_tracker.eric_phone') == 'Away' and states('device_tracker.jas_phone') == 'Away' %}true{% else %}false{% endif %}{% endraw %}"
   action:
     - service: nest.set_mode
       data:
