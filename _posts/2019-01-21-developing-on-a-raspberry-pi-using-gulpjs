@@ -66,4 +66,3 @@ gulp.task('default', () => {
 ```
 
 As you can see it doesn't take much to accomplish this but child_process was something I had never used before this but it has come in handy a few times since then.  Now when I develop on the Pi I can just run the default gulp task and everything copies over and runs pretty seamlessly.
-
