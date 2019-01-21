@@ -8,9 +8,9 @@ excerpt_separator: <!--more-->
 
 Developing on one machine and running on another is a tedious process but sometimes you need to when a library has different features for ARM vs x64 and the then there is always the Windows vs Linux issues.  This was the issue I had when I was working on a Raspberry Pi project using Python, I got everything working on Windows and then copied it over to the Pi thinking the libraries would work the same between the two but they didn't.
 <!--more-->
-After copying & pasting to a share a few times I realized that it was kind of annoying having to move my files to the share, kill the terminal and re-run the start command so I turned to everyone's favorite task runner, [Gulp](https://gulpjs.com/) and it was like greeting an old friend.
+After copying & pasting to a share a few times I realized that it was kind of annoying having to move my files to the share, kill the terminal and re-run the start command so I turned to everyone's favorite task runner, [Gulp](https://gulpjs.com/){:target="_blank"} and it was like greeting an old friend.
 
-In order for this to work with a remote Linux machine, you need to install [Putty](https://putty.org/) which is a common SSH and telnet client for Windows.  Once you install that you get a few programs that will allow you to easily copy files and run remote commands on your connected machine through a command line.  There may be more than one way to do this same thing but this is just how I ended up doing it
+In order for this to work with a remote Linux machine, you need to install [Putty](https://putty.org/){:target="_blank"} which is a common SSH and telnet client for Windows.  Once you install that you get a few programs that will allow you to easily copy files and run remote commands on your connected machine through a command line.  There may be more than one way to do this same thing but this is just how I ended up doing it
 
 **Note: If ```plink``` and ```pscp``` aren't in your PATH they are located inside ```C:\Program Files\PuTTY\```**
 
