@@ -19,5 +19,9 @@ permalink: /pushover_extension
 
   No, I just really like the Pushover service and wanted some additional functionality.
   
+- Do I need an additional license to send messages from Chrome?
+ 
+  If you already have the Desktop license for Pushover then that is all you need. For additional information please checkout [Pushover.net](https://pushover.net/clients/desktop){:target="_blank"}
+  
 {% include donate_buttons.html %}
 
