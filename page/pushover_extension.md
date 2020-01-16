@@ -19,5 +19,5 @@ permalink: /pushover_extension
 
   No, I just really like the Pushover service and wanted some additional functionality.
   
-% include donate_buttons.html %}
+{% include donate_buttons.html %}
 
