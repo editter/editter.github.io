@@ -15,13 +15,16 @@ permalink: /pushover_extension
 
   [The Chrome Web Store](https://chrome.google.com/webstore/detail/fcmngfmocgakhjghfmgbbhlkenccgpdh){:target="_blank"}
   
-- Is there any association between this extension and Pushover, LLC?
+- Is there any official association between this extension and Pushover, LLC?
 
-  No, I just really like the Pushover service and wanted some additional functionality.
+  No, I just really liked the Pushover service and wanted some additional functionality so I wrote an extension.  
   
 - Do I need an additional license to send messages from Chrome?
  
   If you already have the Desktop license for Pushover then that is all you need. For additional information please checkout [Pushover.net](https://pushover.net/clients/desktop){:target="_blank"}
+  
+
+
   
 {% include donate_buttons.html %}
 
