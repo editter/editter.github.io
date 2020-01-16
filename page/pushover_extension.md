@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pushover Extension
-permalink: /pushover_extension/
+permalink: /pushover_extension
 ---
 
 # FAQ
