@@ -13,7 +13,7 @@ permalink: /pushover_extension
   
 - Where can I go to download this extension?
 
-  [The chrome store](https://chrome.google.com/webstore/detail/fcmngfmocgakhjghfmgbbhlkenccgpdh){:target="_blank"}
+  [The Chrome Web Store](https://chrome.google.com/webstore/detail/fcmngfmocgakhjghfmgbbhlkenccgpdh){:target="_blank"}
   
 - Is there any association between this extension and Pushover, LLC?
 
