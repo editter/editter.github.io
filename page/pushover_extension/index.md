@@ -4,7 +4,7 @@ title: Pushover Extension
 permalink: /pushover_extension/
 ---
 
-# FAQ
+## FAQ
 
 - I would like to recommend a feature or report an issue, how can I get in touch?
 
