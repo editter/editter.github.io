@@ -4,9 +4,7 @@ title: Pushover Extension
 permalink: /pushover_extension/
 ---
 
-<p align="center">
-  <img src="/resources/images/pushover-icon-96.png" alt="Pushover" />
-</p>
+![Pushover](/resources/images/pushover-icon-256.png)
 
 ## FAQ
 
