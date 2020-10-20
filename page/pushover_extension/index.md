@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Pushover Extension
+title: Pushover Extension ![Pushover](/resources/images/pushover-icon-96.png)
 permalink: /pushover_extension/
 ---
 
-<p align="center">
-  ![Pushover](/resources/images/pushover-icon-96.png)
-</p>
+![Pushover](/resources/images/pushover-icon-96.png)
+
 ## FAQ
 
 - Where can I go to download this extension?
