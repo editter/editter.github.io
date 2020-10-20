@@ -4,7 +4,7 @@ title: Pushover Extension
 permalink: /pushover_extension/
 ---
 
-![Pushover](/resources/images/pushover-icon-256.png){: style="height: 128px; width: 128px" }
+[![Pushover](/resources/images/pushover-icon-256.png){: style="height: 128px; width: 128px" }](https://pushover.net){:target="_blank"}
 
 ## FAQ
 
