@@ -4,6 +4,9 @@ title: Pushover Extension
 permalink: /pushover_extension/
 ---
 
+<p align="center">
+  ![Pushover](/resources/images/pushover-icon-96.png)
+</p>
 ## FAQ
 
 - Where can I go to download this extension?
@@ -32,5 +35,5 @@ permalink: /pushover_extension/
 
   Send an email to [PushoverExtension@gmail.com](mailto:PushoverExtension@gmail.com){:target="_blank"}
 
-  
+
 {% include donate_buttons.html %}
