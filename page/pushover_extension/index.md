@@ -5,7 +5,6 @@ permalink: /pushover_extension/
 ---
 
 ![Push Client](/resources/images/192.png){: style="height: 128px; width: 128px; display: inline;" }
-
 [![Pushover](/resources/images/pushover-icon-256.png){: style="height: 128px; width: 128px; display: inline" }](https://pushover.net){:target="_blank"}
 
 
