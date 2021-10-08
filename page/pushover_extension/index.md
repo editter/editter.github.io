@@ -3,12 +3,11 @@ layout: page
 title: Push Client Extension
 permalink: /pushover_extension/
 ---
-<div style="display: inline-block;">
 
 ![Push Client](/resources/images/192.png){: style="height: 128px; width: 128px; display: inline;" }
 
 [![Pushover](/resources/images/pushover-icon-256.png){: style="height: 128px; width: 128px; display: inline" }](https://pushover.net){:target="_blank"}
-</div>
+
 
 ## FAQ
 
