@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Pushover Extension
+title: Push Client Extension
 permalink: /pushover_extension/
 ---
+
+[![Push Client](/resources/images/192.png){: style="height: 128px; width: 128px" }]
 
 [![Pushover](/resources/images/pushover-icon-256.png){: style="height: 128px; width: 128px" }](https://pushover.net){:target="_blank"}
 
